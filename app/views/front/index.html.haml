@@ -1,0 +1,64 @@
+.header
+  .header__logo 
+    = link_to root_path, class: "header__logo" do
+      %span<>
+      logo
+
+  .header__another-box
+    .header__another-box__about 
+      = link_to "/front/:id",class: "header__another-box__about" do
+        %span<>
+        about
+    .header__another-box__introduction 
+      = link_to "#",class: "header__another-box__introduction" do
+        %span<>
+        introduction
+    .header__another-box__contact 
+      = link_to "#",class: "header__another-box__contact" do
+        %span<>
+        contact
+    
+    .header__another-box__link 
+      = link_to "#" ,class: "header__another-box__link" do
+        %span<>
+        link
+
+.photo-box
+  %ul.slider
+    = image_tag 'photo1.jpg', alt: 's', class: 'photo1'
+    = image_tag 'photo2.jpg', alt: 's', class: 'photo2'
+    = image_tag 'photo3.jpg', alt: 's', class: 'photo3'
+    = image_tag 'photo4.jpg', alt: 's', class: 'photo4'
+
+  .photo-box__logo-box 
+    .photo-box__logo-box__contents1 MOROKAMI SEMINAR
+    = link_to "/front/:id",class: "photo-box__logo-box__contents2" do
+      %span<>
+      What's about us
+    
+.news-box
+  .news-box__infomation
+    = render 'infomation'
+
+  .news-box__twitter
+    %html
+    %a.twitter-timeline{:href => "https://twitter.com/morozemi_hosei?ref_src=twsrc%5Etfw"} Tweets by morozemi_hosei
+    %script{:async => "", :charset => "utf-8", :src => "https://platform.twitter.com/widgets.js"}
+
+  %iframe(width="500" height="300" src="https://www.youtube.com/embed/Yer1lk7zMt8?rel=0&start=105&end=135" frameborder="2"allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+
+
+.footer ©Atsushi iida. All rights reserved.
+
+:javascript
+  $(function() {
+    $('.slider').not('.slick-initialized').slick({
+      arrows: true,
+      vertical: false,
+      autoplay:true,
+      autoplayspeed:1000,
+    });
+  });
+
+

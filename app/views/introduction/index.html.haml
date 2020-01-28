@@ -1,0 +1,78 @@
+.header
+  .header__logo 
+    = link_to root_path, class: "header__logo" do
+      %span<>
+      logo
+
+  .header__another-box
+    .header__another-box__about 
+      = link_to "/front/:id",class: "header__another-box__about" do
+        %span<>
+        about
+    .header__another-box__introduction 
+      = link_to "introduction",class: "header__another-box__introduction" do
+        %span<>
+        introduction
+    .header__another-box__contact 
+      = link_to "contact",class: "header__another-box__contact" do
+        %span<>
+        contact & link
+    
+    .header__another-box__link 
+      = link_to "#" ,class: "header__another-box__link" do
+        %span<>
+        bonus
+.consumer-box1
+  .title-box1
+  .contents2
+    introduction
+
+.profile-group
+  .profile3
+    .contents
+      %h2  担当教員プロフィール
+      諸上茂光（もろかみ しげみつ）
+      博士 (工学)(筑波大学)
+      %br 研究室  多摩キャンパス 社会学部棟915
+      専門分野  脳科学・広告科学
+      経歴  筑波大学 第三学群工学システム学類卒
+      %br 同大 大学院システム情報工学研究科 博士一貫課程(５年制)修了
+      同大 大学院システム情報工学研究科 研究員
+      %br 愛知淑徳大学 ビジネス学部 専任講師
+      愛知淑徳大学 人間情報学部 准教授
+      %br 法政大学 社会学部 准教授
+      (現在に至る)
+      %br
+    = image_tag 'face.jpg', alt: 'a', height: '200px', width: '300px', class: 'images'
+
+  .profile4
+    %br
+    %h2  主な研究実績 
+    ・「Attribute pair-based visual recognition and memory」(PLoS ONE,2010)
+    %br
+    ・「ニューロマーケティング研究の現状と今後の展開」(日経広告研究所報2008)
+    %br・「形式ニューロンモデルを応用した広告効果の動態的モデルの構築」（日本経営システム学会2008）
+    ・「広告効果の動態的モデルに基づく態度変容パターンのシミュレーション実験」(日本経営システム学会誌2008)
+    %br・「現代広告における外国人モデル起用についての考察：コケージアン・モデル使用広告の認知的・心理的効果の検証」
+    (国際ビジネス研究学会年報2005)
+    %br
+    ・「視覚系における情報統合および連合記憶のメカニズム」（博士論文，2005・筑波大学)
+    %br・「Two-attribute hypothesis in human visual feature integration」(International Workshop on Man-Machine Symbiotic Systems,2004)
+    ・「嗅周皮質の可塑性に基づく受動的連合形成のモデル」(日本神経回路学会誌,2003)
+
+  .profile5
+    %br 
+    %h2 所属学会 
+    電気情報通信学会
+    %br 日本神経回路学会
+    日本社会心理学会
+    %br 日本消費者行動研究学会
+    日本広告学会
+    %br 国際ビジネス研究学会
+    日本経営システム学会 
+.footer ©Atsushi iida. All rights reserved.
+
+:javascript
+  src="/scrollreveal.min.js"
+  window.sr = ScrollReveal({ reset: true ,mobile: true});
+  sr.reveal('.contents2',{ origin: 'bottom' , distance: '50%', duration: 2000 , scale: 0.8, delay :0 ,opacity: 0});

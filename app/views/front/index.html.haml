@@ -3,33 +3,40 @@
     = link_to root_path, class: "header__logo" do
       %span<>
       logo
-
+  
   .header__another-box
     .header__another-box__about 
       = link_to "/front/:id",class: "header__another-box__about" do
         %span<>
         about
     .header__another-box__introduction 
-      = link_to "#",class: "header__another-box__introduction" do
+      = link_to "introduction",class: "header__another-box__introduction" do
         %span<>
         introduction
     .header__another-box__contact 
-      = link_to "#",class: "header__another-box__contact" do
+      = link_to "contact",class: "header__another-box__contact" do
         %span<>
-        contact
+        contact & link
     
     .header__another-box__link 
       = link_to "#" ,class: "header__another-box__link" do
         %span<>
-        link
+        bonus
 
 .photo-box
   %ul.slider
-    = image_tag 'photo1.jpg', alt: 's', class: 'photo1'
     = image_tag 'photo2.jpg', alt: 's', class: 'photo2'
-    = image_tag 'photo3.jpg', alt: 's', class: 'photo3'
     = image_tag 'photo4.jpg', alt: 's', class: 'photo4'
-
+    = image_tag 'S__95313927.jpg', alt: 's', class: 'photo4'
+    = image_tag 'S__95313929.jpg', alt: 's', class: 'photo4'
+    = image_tag 'S__95313930.jpg', alt: 's', class: 'photo4'
+    = image_tag 'S__95313932.jpg', alt: 's', class: 'photo4'
+    = image_tag 'S__95313933.jpg', alt: 's', class: 'photo4'
+    = image_tag 'S__95313934.jpg', alt: 's', class: 'photo4'
+    = image_tag 'S__95313936.jpg', alt: 's', class: 'photo4'
+    = image_tag 'S__95313937.jpg', alt: 's', class: 'photo4'
+    = image_tag 'S__95313939.jpg', alt: 's', class: 'photo4'
+    
   .photo-box__logo-box 
     .photo-box__logo-box__contents1 MOROKAMI SEMINAR
     = link_to "/front/:id",class: "photo-box__logo-box__contents2" do
@@ -45,7 +52,7 @@
     %a.twitter-timeline{:href => "https://twitter.com/morozemi_hosei?ref_src=twsrc%5Etfw"} Tweets by morozemi_hosei
     %script{:async => "", :charset => "utf-8", :src => "https://platform.twitter.com/widgets.js"}
 
-  %iframe(width="500" height="300" src="https://www.youtube.com/embed/Yer1lk7zMt8?rel=0&start=105&end=135" frameborder="2"allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+  %iframe(width="70%" height="100%" src="https://www.youtube.com/embed/Yer1lk7zMt8?rel=0&start=105&end=135" frameborder="2"allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 
@@ -57,7 +64,7 @@
       arrows: true,
       vertical: false,
       autoplay:true,
-      autoplayspeed:1000,
+      autoplayspeed:500,
     });
   });
 

@@ -144,30 +144,34 @@ a{
   }
 }
 
+
+.title{
+  font-size: 30px;
+  margin-left: 150px;
+  color: orange;
+}
 .news-box{
   display: flex;
   height: 50vh;
   width: 80%;
   margin: 3% auto;
-  justify-content: space-between;
+  justify-content: space-around;
+ 
   
-
 
 
   &__infomation{
     width: 20%;
     height: 70%;
- 
-    padding: 10px;
-    overflow: scroll;
     
+    overflow: scroll;
 
   }
   &__twitter{
     width: 20%;
-    height: 70%;
+    height:100%;
  
-    padding: 10px;
+   
     overflow: scroll;
 
   }

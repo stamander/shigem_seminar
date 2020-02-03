@@ -14,14 +14,35 @@
 .nine-box{
   display: flex;
   margin-bottom: 100px;
+  justify-content: space-evenly;
 }
 .image-9{
   width: 50%;
+  height: 400px;
+}
 
+.image-10{
+  width: 50%;
+  height: 400px;
+}
+
+.image-11{
+  width: 50%;
+  height: 300px;
+}
+
+.image-12{
+  width: 50%;
+  height: 300px;
 
 }
 
-.contents {
+.image-13{
   width: 50%;
+  height: 300px;
+  
+}
+
+.contents {
   color: gray;
 }

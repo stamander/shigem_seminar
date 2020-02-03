@@ -30,7 +30,6 @@
     = image_tag 'S__95313930.jpg', alt: 's', class: 'photo4'
     = image_tag 'S__95313932.jpg', alt: 's', class: 'photo4'
     = image_tag 'S__95313933.jpg', alt: 's', class: 'photo4'
-    = image_tag 'S__95313934.jpg', alt: 's', class: 'photo4'
     = image_tag 'S__95313937.jpg', alt: 's', class: 'photo4'
     = image_tag 'S__95313939.jpg', alt: 's', class: 'photo4'
     
@@ -39,18 +38,16 @@
     = link_to "/front/:id",class: "photo-box__logo-box__contents2" do
       %span<>
       What's about us ?
-    
-.news-box
-  .news-box__infomation
-    = render 'infomation'
 
+.title infomation
+.news-box
+  %html
+    %iframe{src: "http://morozemi.ws.hosei.ac.jp/kayou.html", class:"infomation"}
   .news-box__twitter
     %html
     %a.twitter-timeline{:href => "https://twitter.com/morozemi_hosei?ref_src=twsrc%5Etfw"} Tweets by morozemi_hosei
     %script{:async => "", :charset => "utf-8", :src => "https://platform.twitter.com/widgets.js"}
-
-  %iframe(width="70%" height="100%" src="https://www.youtube.com/embed/Yer1lk7zMt8?rel=0&start=105&end=135" frameborder="2"allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+  %iframe(width="40%" height="100%" src="https://www.youtube.com/embed/Yer1lk7zMt8?rel=0&start=105&end=135" frameborder="2"allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 .footer ©Atsushi iida. All rights reserved.

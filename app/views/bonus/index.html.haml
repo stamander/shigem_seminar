@@ -7,6 +7,11 @@
       = link_to "/front/:id",class: "header__another-box__about" do
         %span<>
         about
+
+    .header__another-box__link 
+      = link_to "bonus" ,class: "header__another-box__link" do
+        %span<>
+        history
     .header__another-box__introduction 
       = link_to "introduction",class: "header__another-box__introduction" do
         %span<>
@@ -16,21 +21,16 @@
         %span<>
         contact
     
-    .header__another-box__link 
-      = link_to "bonus" ,class: "header__another-box__link" do
-        %span<>
-        bonus
-
 
 .consumer-box1
   .title-box3
   .contents2
-    bonus
+    history
 
 
 .main1-box
   .nine-box
-    = image_tag '9期.jpg', alt: 'c', class: 'image-9'
+    = image_tag 'about.jpg', alt: 'c', class: 'image-9'
       
     .contents 
       %h1<9期生 主な実績

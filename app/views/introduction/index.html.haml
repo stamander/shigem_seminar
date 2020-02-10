@@ -1,12 +1,19 @@
 .header
   .header__logo 
-    = link_to image_tag("logo.jpg",class: "header__logo"), root_path
 
+    = link_to image_tag("logo.jpg",class: "header__logo"), root_path
+     
+  
   .header__another-box
     .header__another-box__about 
-      = link_to "/front/:id",class: "header__another-box__about" do
+      = link_to "/front/:id", class: "header__another-box__about" do
         %span<>
         about
+
+    .header__another-box__link 
+      = link_to "bonus" ,class: "header__another-box__link" do
+        %span<>
+        history
     .header__another-box__introduction 
       = link_to "introduction",class: "header__another-box__introduction" do
         %span<>
@@ -16,10 +23,6 @@
         %span<>
         contact
     
-    .header__another-box__link 
-      = link_to "bonus" ,class: "header__another-box__link" do
-        %span<>
-        bonus
 .consumer-box1
   .title-box1
   .contents2
@@ -41,7 +44,7 @@
       %br 法政大学 社会学部 准教授
       (現在に至る)
       %br
-    = image_tag 'face.jpg', alt: 'a', height: '200px', width: '300px', class: 'images'
+    = image_tag '56016.jpg', alt: 'a', height: '230px', width: '200px', class: 'images'
 
   .profile4
     %br

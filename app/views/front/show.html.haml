@@ -1,12 +1,19 @@
 .header
   .header__logo 
-    = link_to image_tag("logo.jpg",class: "header__logo"), root_path
 
+    = link_to image_tag("logo.jpg",class: "header__logo"), root_path
+     
+  
   .header__another-box
     .header__another-box__about 
-      = link_to "/front/:id",class: "header__another-box__about" do
+      = link_to "/front/:id", class: "header__another-box__about" do
         %span<>
         about
+
+    .header__another-box__link 
+      = link_to "/bonus" ,class: "header__another-box__link" do
+        %span<>
+        history
     .header__another-box__introduction 
       = link_to "/introduction",class: "header__another-box__introduction" do
         %span<>
@@ -14,13 +21,8 @@
     .header__another-box__contact 
       = link_to "/contact",class: "header__another-box__contact" do
         %span<>
-        contact 
+        contact
     
-    .header__another-box__link 
-      = link_to "/bonus" ,class: "header__another-box__link" do
-        %span<>
-        bonus
-
 .consumer-box1
   .title-box
   .contents1
@@ -49,9 +51,21 @@
     学年ごとに活動する本ゼミの他に、１ゼミと２ゼミ生が学年を超えて合同で活動するサブゼミが存在します。実際の企業を相手とした販売戦略の提案、
     学外のコンペティションへの出場など本ゼミで学習した知識や理論をもとに実践的な活動を行っています。
 
-  .schedule-box
-    %h1 年間スケジュール（2018年度の活動)
-    諸上ゼミでは例年８月に夏合宿、２月に春合宿を行います。
+  .process-box
+    .schedule-box
+      %h1 学年ごとの活動
+      1ゼミ  
+      %br・広告に関する関する基礎的なテキストを読み進めながら読み進めながら、テーマを決めてテーマを決めてディスカッションを行い、
+      レジュメの作り方作り方や議論の進め方を身に着ける。
+      %br・課題を通じて広告に関する知識や効果を分析する。
+      %br
+      2ゼミ 
+      %br・消費者行動に関する広範なテキストを読み進める。
+      ・効果的な広告モデルを検討し検討し、仮装広告を作成し、アンケート調査を行うことで広告効果を検討する。
+    .imag-box
+      = image_tag '習得内容.gif', alt: 'a', height: '300px', width: '500px'
+
+
   .Performance-box
     %h1 活動実績
     ConComへの参加

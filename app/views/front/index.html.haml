@@ -9,6 +9,11 @@
       = link_to "/front/:id", class: "header__another-box__about" do
         %span<>
         about
+
+    .header__another-box__link 
+      = link_to "bonus" ,class: "header__another-box__link" do
+        %span<>
+        history
     .header__another-box__introduction 
       = link_to "introduction",class: "header__another-box__introduction" do
         %span<>
@@ -18,10 +23,7 @@
         %span<>
         contact
     
-    .header__another-box__link 
-      = link_to "bonus" ,class: "header__another-box__link" do
-        %span<>
-        bonus
+
 
 .photo-box
   %ul.slider
@@ -39,7 +41,7 @@
       %span<>
       What's about us ?
 
-.title infomation
+.title information
 .news-box
   %html
     %iframe{src: "http://morozemi.ws.hosei.ac.jp/kayou.html", class:"infomation"}

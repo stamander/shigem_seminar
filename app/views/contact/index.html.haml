@@ -1,7 +1,7 @@
 .header
   .header__logo 
 
-    = link_to image_tag("logo.jpg",class: "header__logo"), root_path
+    = link_to image_tag("logo1.jpg",class: "header__logo"), root_path
      
   
   .header__another-box
@@ -38,15 +38,28 @@
     入ゼミに関する質問は
     %span<morozemi12th@gmail.com
     までメールをお願いします。
+
+    研究室へのアクセスは
+    %span<acc.morokami@gmail.com
+    です。
     %br
     諸上ゼミtwitterアカウントは
     = link_to "@morozemi_hosei", "https://twitter.com/morozemi_hosei"
+
     
     です。
     %br
     入ゼミ・ゼミ選考に関する情報は
     = link_to "諸上ゼミ13期生選考ページ","http://morozemi.ws.hosei.ac.jp/morozemi13.html"
     で更新していきます。
+
+    %br
+    %br
+    %a{download: "諸上ゼミ10期生選考ページ.pdf", href: "諸上ゼミ10期生選考ページ.pdf"} 課題のダウンロードはこちらから
+    
+
+
+
   .link-box
     %h1
       link
@@ -69,7 +82,7 @@
     %br
     = link_to "・Dropbox","https://www.dropbox.com/"
     
-.footer ©Atsushi iida. All rights reserved.
+.footer powered by Atsushi iida. 
 
 
 :javascript

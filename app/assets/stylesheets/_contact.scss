@@ -30,3 +30,13 @@
 span{
   color: black;
 }
+
+.task{
+  font-size: 20px;
+  border-bottom: solid rgb(236, 232, 232);
+  color: gray;
+}
+.task:hover{
+  color: black;
+  border-bottom: solid black;
+}

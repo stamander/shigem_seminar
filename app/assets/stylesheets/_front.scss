@@ -157,23 +157,23 @@ a{
   height: 50vh;
   width: 80%;
   margin: 3% auto;
-  justify-content: space-around;
  
   
 
 
-  &__infomation{
-    width: 15%;
-    height: 70%;
-    
+  .info{
+
+    width: 20%;
     overflow: scroll;
+    margin-left: 10px;
 
   }
   &__twitter{
-    width: 30%;
+    width: 40%;
     height:100%;
  
-   
+    margin-left: 10px;
+    margin-right: 10px;
     overflow: scroll;
 
   }
@@ -190,4 +190,8 @@ a{
 .photo-box__logo-box__contents2:hover{
   background-color: rgba($color: #fcfafa, $alpha: 0.8);
   transition: 1s;
+}
+
+.infomation {
+  height: 70%;
 }

@@ -162,14 +162,7 @@ a{
   
 
 
-  .info{
-    height:300px;
 
-    width: 40%;
-    overflow: scroll;
-    margin-left: 10px;
-
-  }
   &__twitter{
     width: 40%;
     height:300px;
@@ -180,7 +173,13 @@ a{
 
   }
 }
+.info{
+  width: 450px;
+  height: 300px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 
+}
 
 .footer{
   width: 100%;

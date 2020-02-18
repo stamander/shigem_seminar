@@ -121,6 +121,7 @@ a{
     margin-top: 23%;
     &__contents1{
       color:whitesmoke;
+      width: 100%;
       font-size: 50px;
       margin-bottom: 30px;
       text-align: center;
@@ -129,11 +130,10 @@ a{
     }
     &__contents2{
       color:whitesmoke;
-      width: 250px;
       border: 1px solid hsla(0,0%,100%,.7);
       padding: 8px;
       text-align: center;
-      margin-left: 45%;
+      margin-left: 42%;
       border-radius: 22px;
       font-size: 20px;
 

@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   resources :front, only: [:index,:show] 
   resources :introduction, only: [:index] 
   resources :contact, only: [:index]
-  resources :bonus, only: [:index]
+  resources :history, only: [:index]
 
 end
 

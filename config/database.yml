@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: seminar_production
-  username: seminar
-  password: <%= ENV['SEMINAR_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5

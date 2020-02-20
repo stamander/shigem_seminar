@@ -154,15 +154,13 @@ a{
 .title{
   font-size: 30px;
   margin-left: 10px;
-
   color: orange;
 }
 .news-box{
   display: flex;
   height: 800px;
-  width: 100%;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  width: 900px;
+  margin: auto;
   justify-content: space-evenly;
   
   
@@ -171,10 +169,7 @@ a{
 
   &__twitter{
     width: 40%;
-    height:100%;
- 
-    
-    margin-left: 10px;
+    height:700px;
     overflow: scroll;
     border:2px solid #ccc; 
   
@@ -201,8 +196,8 @@ a{
 
 .iframe-wrap {
   position: relative;
-  width:30%;
-  height:100%;
+  width:40%;
+  height:700px;
 
   overflow:auto; 
   -webkit-overflow-scrolling:touch;

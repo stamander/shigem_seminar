@@ -1,90 +1,92 @@
-.wrapper
-  .header
-    .header__logo 
 
-      = link_to image_tag("logo1.jpg",class: "header__logo"), root_path
-      
+
+
+.header
+  .header__logo 
+
+    = link_to image_tag("logo1.jpg",class: "header__logo"), root_path
     
-    .header__another-box
-      .header__another-box__about 
-        = link_to "/front/:id", class: "header__another-box__about" do
-          %span<>
-          about us
+  
+  .header__another-box
+    .header__another-box__about 
+      = link_to "/front/:id", class: "header__another-box__about" do
+        %span<>
+        about us
 
-      .header__another-box__link 
-        = link_to "history" ,class: "header__another-box__link" do
-          %span<>
-          history
-      .header__another-box__introduction 
-        = link_to "introduction",class: "header__another-box__introduction" do
-          %span<>
-          introduction
-      .header__another-box__contact 
-        = link_to "contact",class: "header__another-box__contact" do
-          %span<>
-          contact
-      
-
-  .consumer-box1
-    .title-box2
-    .contents2
-      contact
-  .main-box
-
-    .contact-box
-      %h1
+    .header__another-box__link 
+      = link_to "history" ,class: "header__another-box__link" do
+        %span<>
+        history
+    .header__another-box__introduction 
+      = link_to "introduction",class: "header__another-box__introduction" do
+        %span<>
+        introduction
+    .header__another-box__contact 
+      = link_to "contact",class: "header__another-box__contact" do
+        %span<>
         contact
-      研究室へのアクセスは
-      %span<acc.morokami@gmail.com
-      です。
-      %br
-      入ゼミに関する質問は
-      %span<morozemi13th@gmail.com
-      まで
-      %br メールをお願いします。
+    
+
+.consumer-box1
+  .title-box2
+  .contents2
+    contact
+.main-box
+
+  .contact-box
+    %h1
+      contact
+    研究室へのアクセスは
+    %span<acc.morokami@gmail.com
+    です。
+    %br
+    入ゼミに関する質問は
+    %span<morozemi13th@gmail.com
+    まで
+    %br メールをお願いします。
 
 
-      %br
-      諸上ゼミtwitterアカウントは
-      = link_to "@morozemi_hosei", "https://twitter.com/morozemi_hosei"
+    %br
+    諸上ゼミtwitterアカウントは
+    = link_to "@morozemi_hosei", "https://twitter.com/morozemi_hosei"
 
-      
-      です。
-      %br
-      入ゼミ・ゼミ選考に関する情報は
-      = link_to "諸上ゼミ14期生選考ページ","http://morozemi.ws.hosei.ac.jp/morozemi14.html"
-      %br で更新していきます。
+    
+    です。
+    %br
+    入ゼミ・ゼミ選考に関する情報は
+    = link_to "諸上ゼミ14期生選考ページ","http://morozemi.ws.hosei.ac.jp/morozemi14.html"
+    %br で更新していきます。
 
-      %br
-      %br
-      %a{download: "14jizennkadai.pdf", href: "14jizennkadai.pdf",class:"task"} 課題のダウンロードはこちらから
-      
+    %br
+    %br
+    %a{download: "14jizennkadai.pdf", href: "14jizennkadai.pdf",class:"task"} 課題のダウンロードはこちらから
+    
 
 
 
-    .link-box
-      %h1
-        link
-      = link_to "・法政大学","http://www.hosei.ac.jp/"
-      %br
-      = link_to "・法政大学社会学部","http://www.hosei.ac.jp/shakai/index.html"
-      
-      %br
-      = link_to "・法政大学図書館","http://www.hosei.ac.jp/library/index.html"
-      
-      %br
-      = link_to "・国立国会図書館","https://www.ndl.go.jp/"
-      
-      %br
-      = link_to "・CiNii","https://ci.nii.ac.jp/"
-      
-      %br
-      = link_to "・Google Scholar","https://scholar.google.co.jp/"
-      
-      %br
-      = link_to "・Dropbox","https://www.dropbox.com/"
-      
-  .footer1 copyright©2020 法政大学社会学部 諸上ゼミナール all rights reserved powered by Atsushi iida.
+  .link-box
+    %h1
+      link
+    = link_to "・法政大学","http://www.hosei.ac.jp/"
+    %br
+    = link_to "・法政大学社会学部","http://www.hosei.ac.jp/shakai/index.html"
+    
+    %br
+    = link_to "・法政大学図書館","http://www.hosei.ac.jp/library/index.html"
+    
+    %br
+    = link_to "・国立国会図書館","https://www.ndl.go.jp/"
+    
+    %br
+    = link_to "・CiNii","https://ci.nii.ac.jp/"
+    
+    %br
+    = link_to "・Google Scholar","https://scholar.google.co.jp/"
+    
+    %br
+    = link_to "・Dropbox","https://www.dropbox.com/"
+    
+.footer copyright©2020 法政大学社会学部 諸上ゼミナール all rights reserved powered by Atsushi iida.
 
 
 :javascript

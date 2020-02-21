@@ -81,39 +81,43 @@ a{
 
 
 .photo-box{
-  width: 950px;
+  width: 1000px;
   height: 800px;
   position: relative;
-  margin: 0 auto;
+  margin: 30px auto;
 
   .slider{
-    
     position: absolute;
+
     width: 1000px;
     height: 50%;
-    margin: 0;
+    margin: 0 auto;
     
     .photo1{
-      height: 700px;
-      width: 80%;
-      margin: auto;
- 
-      
 
-  
+      margin: auto;
     }
     .photo2{
-      height: 700px;
-      width: 80%;
-      margin: auto;
 
+      margin: auto;
+    }
+    .photo3{
 
     }
     .photo4{
-      height: 700px;
-      width: 80%;
+
       margin: auto;
-  
+    }
+    .photo5{
+
+    }
+    .photo6{
+
+    }
+    .photo7{
+
+    }
+    .Photo8{
 
     }
   }

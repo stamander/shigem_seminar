@@ -82,7 +82,7 @@ a{
 
 .photo-box{
   width: 1000px;
-  height: 750px;
+  height: 600px;
   position: relative;
   margin:auto;
 
@@ -94,17 +94,37 @@ a{
     margin: 0 auto;
     
     .photo1{
+  
+      height: 600px;
 
       margin: auto;
     }
     .photo2{
 
+      height: 600px;
+
       margin: auto;
     }
     .photo3{
 
+      height: 600px;
+
     }
     .photo4{
+
+      height: 600px;
+
+      margin: auto;
+    }
+    .photo5{
+
+      height: 600px;
+
+      margin: auto;
+    }
+    .photo6{
+ 
+      height: 600px;
 
       margin: auto;
     }
@@ -153,7 +173,6 @@ a{
   display: flex;
   height: 800px;
   width: 900px;
-  padding-top: 50px;
   margin: auto;
   justify-content: space-evenly;
   

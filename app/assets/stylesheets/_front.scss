@@ -82,15 +82,15 @@ a{
 
 .photo-box{
   width: 1000px;
-  height: 800px;
+  height: 750px;
   position: relative;
-  margin: 30px auto;
+  margin:auto;
 
   .slider{
     position: absolute;
 
     width: 1000px;
-    height: 50%;
+
     margin: 0 auto;
     
     .photo1{
@@ -108,18 +108,7 @@ a{
 
       margin: auto;
     }
-    .photo5{
-
-    }
-    .photo6{
-
-    }
-    .photo7{
-
-    }
-    .Photo8{
-
-    }
+ 
   }
 
   &__logo-box{

@@ -101,12 +101,25 @@ h1{
 }
 
 .cristf{
-  border-bottom: solid rgb(236, 232, 232);
+
+  border-bottom: solid rgb(180, 243, 167);
   color: gray;
 }
 
 
 .cristf:hover{
+  color: black;
+  border-bottom: solid black;
+}
+
+.cristf2{
+  margin-left: 30px;
+  border-bottom: solid rgb(180, 243, 167);
+  color: gray;
+}
+
+
+.cristf2:hover{
   color: black;
   border-bottom: solid black;
 }
@@ -117,4 +130,8 @@ h1{
 
 .elsa{
   width: 900px;
+}
+
+.frozen2{
+  display: flex;
 }

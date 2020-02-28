@@ -5,6 +5,12 @@
 母校のゼミのホームページです。
 歴代の歴史や、新規ゼミ生へのお知らせがわかるものです。
 
+<img width="1053" alt="スクリーンショット 2020-02-28 12 05 55" src="https://user-images.githubusercontent.com/59189641/75521626-7c23f600-5a4b-11ea-946e-680767fabbbc.png">
+<img width="1196" alt="スクリーンショット 2020-02-28 16 55 50" src="https://user-images.githubusercontent.com/59189641/75521631-7d552300-5a4b-11ea-8e99-8175113e0434.png">
+<img width="1265" alt="スクリーンショット 2020-02-28 16 55 56" src="https://user-images.githubusercontent.com/59189641/75521637-7f1ee680-5a4b-11ea-95f5-903c804e899c.png">
+<img width="1284" alt="スクリーンショット 2020-02-28 16 56 01" src="https://user-images.githubusercontent.com/59189641/75521640-7fb77d00-5a4b-11ea-885b-743c65f6bc2d.png">
+
+
 
 
 # Dependenc

@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# リポジトリ名
+母校のゼミのホームページです。
+歴代の歴史や、新規ゼミ生へのお知らせがわかるものです。
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+# Dependenc
+Ruby on Rails
+javascript
+haml
+scss
 
-* Database creation
+# Setup
+セットアップ方法を書く。用意するハードウェアとソフトウェアをセットアップするためのコマンドを記載する
 
-* Database initialization
+# Usage
+毎年4月に新規ゼミ生を募集するのですが、このページを見た新入生が入りたいと思うようにデザインに拘って作成しました。。
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+# License
+This software is released under the MIT License, see LICENSE.
 
-* Deployment instructions
-
-* ...
+# Authors
+COPYRIGHT © Morokami Seminar 2020. ALL RIGHTS RESERVED.Powered by Atsushi Iida 2020

@@ -69,3 +69,8 @@ gem 'jquery-rails'
 group :production do
   gem 'pg'
 end
+
+
+
+gem 'sqlite3', group: [:development, :test]
+gem 'pg', group: :production

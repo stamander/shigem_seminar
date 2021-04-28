@@ -72,5 +72,3 @@ end
 
 
 
-
-gem 'pg', group: :production
